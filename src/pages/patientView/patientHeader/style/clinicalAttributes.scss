@@ -1,0 +1,23 @@
+$sample-color-primary: black;
+$sample-color-recurrence: orange;
+$sample-color-metastasis: red;
+$sample-color-cfdna: blue;
+$sample-color-xenograft: pink;
+
+/* shared style and JS code variables */
+:export {
+    sampleColorPrimary: $sample-color-primary;
+    sampleColorRecurrence: $sample-color-recurrence;
+    sampleColorMetastasis: $sample-color-metastasis;
+    sampleColorCfdna: $sample-color-cfdna;
+    sampleColorXenograft: $sample-color-xenograft;
+}
+
+.clinical-spans {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.dark-comma {
+    color: #333333;
+}
